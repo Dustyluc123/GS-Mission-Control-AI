@@ -1,6 +1,6 @@
-# 🛰️ Mission Control AI - FIAP a Marte
+#  Mission Control AI - FIAP a Marte
 
-## 📋 Informações do Projeto
+## Informações do Projeto
 * **Nome da Missão:** FIAP a Marte
 * **Trilha Temática:**  EnviroSat (Observação Ambiental e Sustentabilidade Terrestre)
 * **Disciplina:** Prompt Engineering and Artificial Intelligence
