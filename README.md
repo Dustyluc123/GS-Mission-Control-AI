@@ -1,4 +1,4 @@
-# 🛰️ Mission Control AI - Helios Solar Probe
+#  Mission Control AI - Helios Solar Probe
 
 <div align="center">
 
