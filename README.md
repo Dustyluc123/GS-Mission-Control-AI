@@ -12,7 +12,7 @@
 
 ---
 
-## 📋 Informações do Projeto
+##  Informações do Projeto
 
 | Campo | Descrição |
 |-------|-----------|
@@ -24,7 +24,7 @@
 
 ---
 
-## 🎯 Descrição Geral da Solução
+##  Descrição Geral da Solução
 
 O **Mission Control AI** é um sistema computacional embarcado de suporte à decisão operado através de uma interface interativa de linha de comando. 
 
@@ -42,7 +42,7 @@ A Helios Solar Probe tem como missão primária:
 
 ---
 
-## 🏗️ Arquitetura do Sistema
+##  Arquitetura do Sistema
 
 ### Fluxo de Dados (Ciclo Fechado)
 
@@ -92,7 +92,7 @@ gs-mission-control-ai/
 
 ---
 
-## 📦 Detalhamento dos Componentes
+##  Detalhamento dos Componentes
 
 ### Raiz do Projeto
 
@@ -119,7 +119,7 @@ gs-mission-control-ai/
 
 ---
 
-## 🤖 Design de Engenharia de Prompts e IA
+## Design de Engenharia de Prompts e IA
 
 ### Técnicas Aplicadas no System Prompt
 
@@ -161,7 +161,7 @@ Selecione personas em tempo real com `/persona <tipo>`:
 
 ---
 
-## 💼 Proposta de Valor e Modelo de Negócio
+## Proposta de Valor e Modelo de Negócio
 
 ### 1. Resolução do Problema Terrestre
 
@@ -197,7 +197,7 @@ Manutenção contínua de **5 milhões de hectares** de floresta amazônica atra
 
 ---
 
-## 🚀 Instalação e Execução
+## Instalação e Execução
 
 ### Pré-requisitos
 
@@ -243,7 +243,7 @@ python3 main.py
 
 ---
 
-## 📊 Cenários Pré-Configurados
+## Cenários Pré-Configurados
 
 O arquivo `cenarios.json` contém três cenários de voo:
 
@@ -253,7 +253,7 @@ O arquivo `cenarios.json` contém três cenários de voo:
 
 ---
 
-## 🔮 Melhorias Futuras
+## Melhorias Futuras
 
 - [ ] **Sockets de Telemetria Real**: WebSockets para dados de satélites reais
 - [ ] **Banco de Dados NoSQL**: Persistência histórica de ciclos operacionais
@@ -263,7 +263,7 @@ O arquivo `cenarios.json` contém três cenários de voo:
 
 ---
 
-## 👨‍💼 Autor
+## Autor
 
 | Campo | Informação |
 |-------|-----------|
@@ -272,16 +272,10 @@ O arquivo `cenarios.json` contém três cenários de voo:
 | **Instituição** | FIAP |
 | **Curso** | Ciências da Computação |
 
----
 
-## 📜 Licença
-
-Todos os direitos reservados. Este projeto é disponibilizado exclusivamente para fins acadêmicos, educacionais e de demonstração de portfólio profissional. Reprodução total ou parcial sem autorização é proibida.
-
----
 
 <div align="center">
 
-**Desenvolvido com ❤️ para a FIAP - 2026**
+**Desenvolvido com para a FIAP - 2026**
 
 </div>
