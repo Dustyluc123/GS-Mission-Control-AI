@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este projeto, desenvolvido no contexto da disciplina de Pensamento Computacional e Automação com Python no primeiro semestre do curso de Ciências da Computação da FIAP, simula um sistema de monitoramento e controle para uma missão espacial fictícia, denominada "FIAP a Marte". O objetivo principal é demonstrar a aplicação de lógica de programação para automatizar a análise de dados de telemetria, identificar anomalias e sugerir ações corretivas, visando a manutenção da segurança e eficiência operacional da nave.
+Este projeto foi desenvolvido de forma integrada para atender aos requisitos das disciplinas de **Pensamento Computacional e Automação com Python** e **Soluções em Energias Renováveis e Sustentáveis**, no primeiro semestre do curso de Ciências da Computação da FIAP. O sistema simula um ecossistema de monitoramento, controle e gestão inteligente de uma microrrede aeroespacial isolada para a missão espacial experimental " FIAP a Marte". O objetivo principal é aplicar lógica de programação e conceitos de física/engenharia de energia para automatizar a análise de dados de telemetria, calcular o balanço de potência ativa, identificar anomalias e sugerir ações de eficiência energética, garantindo a autossustentabilidade operacional da nave. 
 
 A motivação para este projeto reside na crescente demanda por sistemas autônomos e inteligentes capazes de processar grandes volumes de dados em tempo real, especialmente em cenários críticos como missões espaciais. A solução proposta aborda o desafio de transformar dados brutos de sensores em informações acionáveis, minimizando a intervenção humana e otimizando a tomada de decisões em ambientes complexos. O público-alvo inclui estudantes de computação, engenheiros de software e entusiastas de automação e inteligência artificial.
 
@@ -14,10 +14,14 @@ O sistema implementa as seguintes funcionalidades essenciais para o monitorament
 *   **Classificação de Parâmetros Individuais**: Análise de cada parâmetro de telemetria para determinar seu status (NORMAL, ATENÇÃO, CRÍTICO), atribuir uma pontuação de risco e gerar mensagens de status e recomendações específicas para cada anomalia detectada.
 *   **Formatação Visual de Medidas**: Apresentação dos dados de telemetria com suas respectivas unidades de medida (°C para temperatura e % para os demais parâmetros), garantindo clareza e padronização.
 *   **Análise de Tendência Geral da Missão**: Avaliação matemática do histórico de pontuações de risco para identificar a tendência global da missão (melhorando, piorando ou estável), fornecendo uma visão macro da saúde operacional da nave.
+*  **Análise de Balanço de Potência Ativa (kW):** Modelagem matemática integrada que calcula, a cada ciclo orbital, a relação entre a Potência Solar Gerada pelos painéis fotovoltaicos e a Potência Consumida pelas cargas do sistema.
+* **Cálculo do Índice de Sustentabilidade Energética (ISE):** Indicador estatístico inovador que quantifica a eficiência ecológica global da missão, mensurando a porcentagem de tempo em que a sonda operou em regime autossustentável (sem degradação acelerada do banco de armazenamento ou uso de fontes não renováveis).
 
 ## Arquitetura e Estrutura
 
-O projeto adota uma arquitetura modular baseada em funções, organizada em um único arquivo `main.py` dentro do diretório `src`. Esta estrutura simplificada facilita a compreensão e a manutenção do código, sendo ideal para um projeto de escopo acadêmico. A aplicação segue um padrão de script de automação e análise de dados, onde cada função é responsável por uma etapa específica do processo de monitoramento.
+O projeto adota uma arquitetura modular baseada em funções, organizada em um arquivo `main.py` dentro do diretório `src`. A aplicação foi desenhada como um ciclo fechado de dados (Data Loop), estruturado para processar matrizes multidimensionais sem o uso de bibliotecas externas. 
+
+A inteligência do sistema baseia-se em um motor de regras lógicas estruturado para atuar como um Sistema de Gerenciamento pelo Lado da Demanda (DSM). Ele analisa thresholds (limites) operacionais e converte dados brutos em tomadas de decisão automatizadas para mitigação de estresse térmico, realinhamento de painéis solares e corte de cargas críticas em cenários de subgeração energética.
 
 ## Stack Tecnológica
 
