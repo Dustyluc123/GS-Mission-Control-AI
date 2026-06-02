@@ -1,7 +1,7 @@
 #  Mission Control AI - FIAP a Marte
 
 ## Informações do Projeto
-* **Nome da Missão:** FIAP a Marte
+* **Nome da Missão:** HELIOS ENERGY EDITION FIAP a Marte
 * **Trilha Temática:**  EnviroSat (Observação Ambiental e Sustentabilidade Terrestre)
 * **Disciplina:** Prompt Engineering and Artificial Intelligence
 * **Instituição:** FIAP - Ciências da Computação (2026.1)
