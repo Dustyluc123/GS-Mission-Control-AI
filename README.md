@@ -5,8 +5,7 @@
 **Um sistema de inteligência artificial embarcado para monitoramento de radiação solar e anomalias térmicas orbitais**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776ab?style=flat-square&logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Academic%20Use-blue?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production-success?style=flat-square)](README.md)
+
 
 </div>
 
